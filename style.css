@@ -1,18 +1,27 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 body {
    background-color: aqua;
    height: 100vh;
    display: flex;
-   flex-direction: column;
    justify-content: center;
    align-items: center;
 }
 button {
-   margin: 50px;
    padding: 40px;
-   border: 2px solid rebeccapurple;
+   transition: all 500ms ease-in-out;
+   border: 5px solid rebeccapurple;
    border-radius: 100px;
    background-color: rebeccapurple;
    color: white;
    font-size: 5rem;
    font-weight: 700;
+   cursor: pointer;
+}
+button:hover {
+   color: rebeccapurple;
+   background-color: white;
 }
